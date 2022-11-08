@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
-  * main - prints the first 50 fibonacci numbers
+  * fibonacci - prints the first 50 fibonacci numbers
   *
   * Return: 0
   */
 
-int main(void)
+int fibonacci(void)
 {
 	int n;
 	int fibo;
@@ -24,5 +24,5 @@ int main(void)
 		}
 	}
 	printf("\n");
-	return (0);
+	return (fibo);
 }
